@@ -26,7 +26,7 @@
       <div class="job">
         <h3><?php echo $job['company'] ?></h3> 
         <span class="jobtitle"><?php echo $job['jobtitle'] ?></span>
-        <span class="jobdate"><?php echo date('M Y', strtotime($job['datefrom'])) ?> - <?php if($job['current'] == '1'): ?>Current<?php else: ?><?php echo date('M Y', strtotime($job['dateto'])) ?><?php endif ?></span>
+        <span class="jobdate"><?php echo date('M Y', strtotime($job['datefrom'])) ?> - <?php if(isset($job['current'])): ?>Current<?php else: ?><?php echo date('M Y', strtotime($job['dateto'])) ?><?php endif ?></span>
         <div class="jobdescription more"><?php echo kirbytext($job['description']) ?></div>
         </div>
         <?php endforeach ?>
