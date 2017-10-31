@@ -38,7 +38,7 @@ kirbytext::$tags['picture'] = array (
     $OImg = $image;
 
 
-
+    $buffer= "";
     // Starting figure
     $buffer .= '<figure';
     if ($class) { $buffer .= ' class="' . $class . '"'; }
