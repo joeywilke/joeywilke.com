@@ -1,0 +1,25 @@
+Title: Drift
+
+----
+
+Text: 
+
+An excercise in atmosphere, visual conventions of mapping, video editing and flash development, I created this document of a walk around the city on a rainy day. Using a flash micro-site, I tried to capture the sombre nature of walking alone on a gray day. Experience the site [here](http://joeywilke.com/alt/drift/low-res).
+
+(image: drift_04.jpg caption: Screenshot of the map view mousing over a location.)
+
+----
+
+Tags: Development
+
+----
+
+Collaborators: 
+
+----
+
+Summary: Urban exploration mapped
+
+----
+
+Cover: drift-cover.jpg

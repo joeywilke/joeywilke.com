@@ -1,0 +1,50 @@
+Title: D&D Sundering
+
+----
+
+Tags: Art Direction
+
+----
+
+Text: 
+
+I had the pleasure of working on the Dungeons & Dragons: The Sundering app that was released in tandem with new content in the Forgotten Realms campaign. 
+
+My roles included refining user flow for the site, as well as guiding the ui/ux design. The challenge in creating a standalone mobile app that also functions within a facebook app was ensuring both experiences were strong and consistent. 
+
+The app is currently live and used by hundreds of thousands of players worldwide to report the outcomes of their play experiences, connect with other players, and participate in activities designed to enhance their Sundering experience. 
+
+(image: sundering.jpg caption:Mobile Wireframes)
+
+(image: sundering2.jpg caption:Mobile round 1)
+
+(image: sundering3.jpg caption:Mobile round 2)
+
+(image: sundering4.jpg caption:Desktop experiences)
+
+(image: sundering5.jpg caption:More desktop experiences)
+
+(image: sundering6.jpg caption:Live mobile experience)
+
+(image: sundering7.jpg caption:Live desktop onboarding experience)
+
+(image: sundering8.jpg caption:Live desktop home screen)
+
+(image: sundering9.jpg caption:Live desktop novel experience)
+
+----
+
+Collaborators: 
+
+- 
+  name: Crown Social
+  role: Creative Agency
+  url: http://crownsocial.com/
+
+----
+
+Summary: Make your story legend
+
+----
+
+Cover: sundering-cover.jpg

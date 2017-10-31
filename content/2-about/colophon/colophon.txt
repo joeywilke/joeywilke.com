@@ -1,0 +1,27 @@
+Title: Colophon
+
+----
+
+Text: 
+
+This site was lovingly created by hand using fantastic tools, many of which are free, that I'd love to share with you.
+
+(image: typekit logo.svg class:tool caption:<a href="https://typekit.com/fonts/freight-sans-pro">TypeKit</a> - As a long-time fan of custom web fonts, I can attest that Adobe has made the process of serving high quality typography so much easier than it used to be. A few lines of javascript and the world is your beautifully kerned oyster. Freight Sans is my go-to typeface for my personal identity.)
+
+(image: boilerplate logo.svg class: tool caption: <a href="https://html5boilerplate.com/">HTML5 Boilerplate</a> - I use this boilerplate for a lot of development projects to make sure I'm starting with a clean slate that's going to look the same in most every browser.)
+
+(image: kirbyicon.svg class: tool caption: <a href="http://getkirby.com">Kirby CMS</a> - My CMS of choice for small websites, it's beautifully written PHP and uses nothing more than folders and text files, no fussing with MySQL here! It really is easy to setup, easy to use, and flexible as hell)
+
+(image: logo-b6e1ef6e.svg class: tool caption:<a href="http://sass-lang.com/">Sass</a> - With the rise of CSS Preprocessors in recent years, it's easier than ever to keep style code organized and flexible. Sass is my favorite choice, with its robust set of features and active user base.)
+
+(image: susylogo.png class: tool caption: <a href="http://susy.oddbird.net/">Susy</a> - Basically a swiss army knife of grid creation, with a use of Sass that reads like poetry. Media queries are modular and inline, complex calculations are handled with ease, and, well, it just makes sense.)
+
+(image: codekit-icon@2x.png class: tool caption: <a href="https://incident57.com/codekit/">CodeKit</a> - A truly fantastic piece of software to have as a web developer, it makes compiling SASS and Javascript automatic and nonintrusive.)
+
+(image: Sublime_Text_Logo.png class: tool caption: <a href="https://www.sublimetext.com/">Sublime Text</a> - The powerhouse text editor most every developer I know loves. Seems silly to include a text editor in this list, but I really couldn't live without it.)
+
+(image: Spotify_logo_without_text.svg class:tool caption:<a href="https://play.spotify.com/user/joeykangaroo">Spotify</a> - If a tree falls in the forest and no one's around to hear it, it's likely Spotify has the soundtrack.)
+
+----
+
+Cover: mountainsnight-cover.jpg

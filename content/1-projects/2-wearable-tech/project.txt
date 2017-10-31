@@ -1,0 +1,50 @@
+Title: Amazon Wearable Tech
+
+----
+
+Tags: Art Direction,Production,Illustration
+
+----
+
+Text: 
+
+One of the fastest growing sections within the Electronics vertical, the (link: http://amazon.com/wearabletech text: Amazon Wearable Technology) storefront was in need of a redesign, and I was provided the opportunity to lead the visual approach.
+
+(picture: Before.png 
+number: 1 
+caption: The previous design of the Wearable Tech store at Amazon, somewhat limiting with specific green pop color. Wasn't flexible enough to match many of the brands in the store.)
+
+(picture: WT-Visual-Research.jpg 
+number: 2
+caption: Grabbing queues from the current visual landscape of wearable technology products, as well as the Fashion and Sports stores at Amazon which both have distinct visual approaches.)
+
+(picture: 2015_wearableTech_styleguide.jpg
+number: 3
+caption: Here is a bit of the style guide I created that helped to drive the overall direction of all deliverables for the launch.)
+
+(picture: home-mock.jpg
+number:4 
+caption: Home page mockup)
+
+(picture: cat-mock.jpg 
+number:5 
+caption: Category page mockup)
+
+To see the style guide in action, visit the (link: http://amazon.com/wearabletech text: Amazon Wearable Technology) store.
+
+----
+
+Collaborators: 
+
+- 
+  name: Charles Ramsey
+  role: Creative Oversight
+  url: http://charlesville.us
+
+----
+
+Summary: Rebranding a growing category at Amazon.
+
+----
+
+Cover: wearableTech-cover.jpg

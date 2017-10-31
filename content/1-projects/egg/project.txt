@@ -1,0 +1,40 @@
+Title: Amazon EGG
+
+----
+
+Tags: Production
+
+----
+
+Text: 
+
+Working with Charles at ACS, I took a single style frame and fleshed out over 100 graphics in the span of a few short weeks to advertise the launch of the Amazon Electronic Gift Guide. With intimate knowledge of almost every graphic placement used by Amazon, I was able to provide the right size and layout for each graphic the first time, saving time and energy for my team as well as the client. Below is a small sampling of the assets created.
+
+(image: egg.jpg)
+
+(image: egg2.jpg)
+
+(image: egg3.jpg)
+
+(image: egg4.jpg)
+
+(image: egg5.jpg)
+
+(image: egg6.jpg)
+
+----
+
+Collaborators: 
+
+- 
+  name: Charles Ramsey
+  role: Art Direction
+  url: http://charlesville.us/
+
+----
+
+Summary: Holiday Electronics Gift Guide
+
+----
+
+Cover: egg.jpg

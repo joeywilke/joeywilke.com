@@ -1,0 +1,459 @@
+/* =============================================================================
+General
+========================================================================== */
+
+body {
+  color:#353535;
+  font-family: "proxima-nova",sans-serif;
+  line-height:1.5;
+  @include susy-breakpoint($mama){
+    font-size:110%;
+  }
+}
+
+
+a {
+  text-decoration:none!important;
+  color:$brand-color;
+  @include transition(0.15s);
+  &:hover, &:active {
+    color:$secondary-color;
+  }
+}
+
+// Change bullet style to left bracket 
+.projBody, .about {
+  ul {
+    li{
+      position:relative;
+      margin-bottom:.5em;
+      &:before {
+         content: "›";
+         font-weight:bold;
+         position:absolute;
+         left:-.75em;
+       }
+    }
+    list-style: none;
+    padding-left:1em;
+    @include susy-breakpoint($mama) {
+      padding-left:0;
+    }
+  }
+}
+
+
+/* =============================================================================
+Header & Footer
+========================================================================== */
+
+
+.menu {
+  text-align: center;
+  @include susy-breakpoint($baby){
+    text-align: left;
+  }
+}
+
+
+footer {
+  font-size:80%;
+  @include susy-breakpoint($mama) {
+    font-size:100%;
+  }
+}
+
+
+
+/* ============================================================================= 
+Project List
+========================================================================== */
+
+#projList, nav {
+  ul{
+    list-style:none;
+    margin:0;
+    padding-left:0;
+  }
+}
+
+#projList {
+  color:#fff;
+  a:hover {
+    figure {
+      @include transition(.15s);
+      background-color:#333;
+      figcaption {
+        @include transition(.15s);
+      }
+    }
+    h3, .projInfo {
+      // transform: translate3d(0,0,0);
+      opacity:1;
+    }
+    @include susy-breakpoint($baby) {
+      .projInfo, .projSummary {
+        position:static;
+        opacity:1;
+      }
+    }
+    @include susy-breakpoint($papa) {
+      .projRoles {
+        position:static;
+        opacity:0.6;
+      }
+    }
+  }
+  li {
+    @include hp-opacity(.3);
+    @include transition(.15s);
+    &.highlight {
+      @include hp-opacity(1);
+    }
+  }
+  figure {
+    background-color:#1f1f1f;
+    picture {
+      @include hp-opacity(.4);
+    }
+  }
+  figcaption {
+    color:#fff;
+    font-size:90%;
+    border:0px solid;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    // transform: translate3d(0,-50%,0);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top:0;
+    padding-bottom:0;
+    @include susy-breakpoint($papa){
+      font-size:110%;
+    }
+    h3 {
+      font-weight:300;
+      font-size:1.3em;
+      line-height:1.3;
+      margin:0;
+      @include susy-breakpoint($mama) {
+        font-weight: 100;
+      }
+      @include susy-breakpoint($papa) {
+        font-size:1.8;
+      }
+    }
+    .projInfo {
+      line-height:1.3;
+      position:absolute;
+      top:100%;
+      opacity:0;
+    }
+    .projSummary {
+      position:absolute;
+      top:100%;
+      opacity:0;
+      padding:.3em 0;
+    }
+    .projRoles {
+      position:absolute;
+      top:100%;
+      opacity:0;
+      font-size:80%;
+    }
+  }
+}
+
+
+#projFilter {
+  font-size:80%;
+}
+
+#projFilter, #workRoles {
+  .filter, a {
+    @include transition(.15s);
+    display:inline-block;
+    cursor: pointer;
+    @include border-radius(2em);
+    border: 1.5px solid $gray-tone;
+    color:#fff;
+    padding: .1em .7em 0em;
+    margin: .5em .1em 0;
+    &:hover {
+      border: 1.5px solid $secondary-color;
+    }
+    &.active {
+      background-color:$brand-color;
+      color:#fff;
+      border-color:$brand-color;
+      &:hover {
+        background-color:$secondary-color;
+        border-color:$brand-color;
+      }
+    }
+  }
+}
+
+#workRoles {
+  .filter, a {
+    color:#777;
+  }
+}
+
+
+
+/* ============================================================================= 
+Home Page
+========================================================================== */
+
+.home .mainCol {
+  font-weight:300;
+  text-align: center;
+  line-height:1.3;
+  p {
+    margin-bottom:0;
+  }
+  .aboutLink {
+    font-size:.7em;
+    display:inline;
+  }
+  font-size:1.1em;
+  @include susy-breakpoint($baby){
+    font-size:1.2em;
+  }
+  @include susy-breakpoint($mama){
+    font-size:1.3em;
+    font-weight:100;
+  }
+  @include susy-breakpoint($papa){
+    font-size:1.4em;
+  }
+}
+
+
+/* ============================================================================= 
+Project Page
+========================================================================== */
+
+
+.workTitle, .pageTitle {
+  font-weight:100;
+  font-size:1.4em;
+  line-height:1.2;
+  margin-top:0em;
+  @include susy-breakpoint($baby){
+    font-size:1.8em;
+  }
+  @include susy-breakpoint($mama){
+    font-size:2.2em;
+  }
+  @include susy-breakpoint($papa){
+    font-size:2.8em;
+  }
+}
+
+.workMeta {
+  font-size:80%;
+  color:#777;
+  ul{
+    list-style:none;
+    margin:0;
+    padding-left:0;
+    margin-top:.25em;
+    li {
+      line-height:1.7;
+    }
+  }
+}
+
+blockquote {
+  margin-left:0;
+ p {
+    border-left:3px solid $gray-tone;
+    padding-left:1em;
+  }
+}
+
+.project {
+  @include susy-breakpoint($mama){
+    .mainCol figcaption {
+      padding-top: gutter(20);
+      border-top:1px solid $gray-tone;
+      font-size:85%;
+    }
+  }
+  @include susy-breakpoint($papa){
+    .mainCol figcaption {
+      font-size:100%;
+    }
+  }
+}
+
+figcaption {
+  position:relative;
+}
+
+figcaption .figNum {
+  // opacity:0.7;
+  position:absolute;
+  @include border-radius(50%);
+  // background-color:$gray-tone;
+  color:$gray-tone;
+  font-size:.8em;
+  font-weight:700;
+  margin-top:.2em;
+  min-width:1.6em;
+  text-align:center;
+  left:-1em;
+  @include susy-breakpoint($baby) {
+    left:-1em;
+  }
+  @include susy-breakpoint($mama){
+    left:-2.5em;
+  }
+  @include susy-breakpoint($papa){
+    font-size:75%;
+    margin-top:.3em;
+  }
+  &:before, &:after {
+    content:'\200B';
+    display:inline-block;
+    line-height:0px;
+    padding-top:30%;
+    padding-bottom:30%;
+  }
+  &:before {
+    padding-left:.3em;
+  }
+  &:after {
+    padding-right:.3em;
+  }
+}
+
+
+/* ============================================================================= 
+About Page
+========================================================================== */
+
+
+.about {
+  h2 {
+    font-weight:100;
+    font-size:2em;
+    line-height: 1.3;
+    margin-bottom:0;
+    display:block;
+    clear:both;
+  }
+  .job {
+    margin-bottom:2em;
+    h3 {
+      margin:1em 0 0;
+    }
+    p {
+      margin:.25em 0;
+    }
+    li {
+      margin-bottom: .75em;
+    }
+    .jobtitle, .edudegree {
+      line-height:1.1;
+    }
+  }
+  .edu {
+    .edutitle {
+      margin-bottom:0;
+    }
+  }
+  .mainCol {
+    
+  }
+  .sideCol {
+    .skills {
+      padding-left:0;
+      .skill {
+        display:block;
+      }
+      .skilldot {
+        display:inline-block;
+        width:6px;
+        height:6px;
+        @include border-radius(50%);
+        background-color:$gray-tone;
+        margin:0 .2em;
+      }
+      .dots {
+        display:inline-block;
+        float:left;
+        margin-right:.3em;
+        margin-top:-.2em;
+      }
+      .activedot {
+        width:8px;
+        height:8px;
+        margin:0 .15em;
+        background-color:$brand-color;
+      }
+      .ace1 {
+        .dot1 {
+          @extend .activedot;
+        }
+      }
+      .ace2 {
+        .dot1, .dot2 {
+          @extend .activedot;
+        }
+      }
+      .ace3 {
+        .dot1, .dot2, .dot3 {
+          @extend .activedot;
+        }
+      }
+      .ace4 {
+        .dot1, .dot2, .dot3, .dot4 {
+          @extend .activedot;
+        }
+      }
+      .ace5 {
+        .dot1, .dot2, .dot3, .dot4, .dot5 {
+          @extend .activedot;
+        }
+      }
+      .skilltitle {
+        display:block;
+        overflow:hidden;
+        @include susy-breakpoint($mama){
+          font-size:.9em;
+        }
+      }
+      li:before {
+        display:none;
+      }
+    }
+    .skilllabels {
+        color:$gray-tone;
+        font-size:.8em;
+        -moz-transform:rotate(90deg);  
+        -webkit-transform:rotate(90deg);  
+        -o-transform:rotate(90deg);  
+        -ms-transform:rotate(90deg);
+        transform-origin: middle top 0;
+        margin-bottom:3em;
+        position:relative;
+        float: left;
+        clear:both;
+        span {
+          display:block;
+          line-height:1;
+          margin-top:1.5em;
+        }
+    }
+    .bio {
+      font-size:.9em;
+    }
+  }
+}

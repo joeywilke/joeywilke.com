@@ -1,0 +1,49 @@
+Title: Amazon FREE Same-Day
+
+----
+
+Tags: Production,Art Direction
+
+----
+
+Text: 
+
+For the launch of FREE Same-Day Shipping in the US, I produced graphic placements, pages, and print materials to advertise the launch. Working closely with Sarah I created examples of how Eric's illustrations would be used throughout major contact points to fit with the voice of the Amazon Prime brand, and then provided assets and direction to the production team to flesh out advertising materials for worldwide audiences. 
+
+(picture: Isometric-Contact-Sheet.jpg
+class: fullWidth)
+
+<figure class="fullWidth"><iframe src="//fast.wistia.net/embed/iframe/4u237f5lsf?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="1920" height="1080"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script><figcaption>Same-Day Landing page design animated</figcaption></figure>
+
+(picture: GW-herotater-desktop-cropped.jpg 
+number:1
+caption: With its strong value proposition and bold imagery, the gateway placement received an extroardinary 5.2% CTR on the day of launch, being the top 12 performing herotaters of that week.)
+
+(picture: Mobile-gatewayAndMap-iphone-cropped.jpg
+number: 2
+caption: I designed a widget for the mobile experience that allows for content parody of the zip code finder widget I created for the desktop experience, and also included is a shot of the mobile hero image featured on gateway.)
+
+(picture: Infographic-Poster-2.jpg
+number: 3
+caption: Infographic poster created for internal use)
+
+----
+
+Collaborators: 
+
+- 
+  name: Sarah Roulston
+  role: Art Director
+  url: http://sarahroulston.com
+- 
+  name: Eric Liu
+  role: Illustrator
+  url: http://ericliudesign.com
+
+----
+
+Summary: Launch of Prime feature in 14 major metros
+
+----
+
+Cover: sameday-cover.jpg

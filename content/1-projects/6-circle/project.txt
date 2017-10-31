@@ -1,0 +1,36 @@
+Title: Circle of Confusion
+
+----
+
+Tags: Development
+
+----
+
+Text: 
+
+CIRCLE OF CONFUSION is the New York and L.A.-based management and production entity responsible for representation of the industry's top writing and directing talents as well as many of movie and television's top films and series.
+
+I was tasked with turning designs refined in photoshop into a functional wordpress website that could be easily updated by the client. Designing a custom theme from scratch I took pixel-perfect attention to detail and realized it in code. 
+
+(image: www.circleofconfusion.com.png caption:Home Page.)
+
+(image: Cloud Atlas.png caption:Item detail page.)
+
+View the site (link: http://www.circleofconfusion.com text: here).
+
+----
+
+Collaborators: 
+
+- 
+  name: CommonGround Creative
+  role: Creative Agency
+  url: http://www.commongroundcreative.com/
+
+----
+
+Summary: Website for LA-based entertainment powerhouse
+
+----
+
+Cover: circle-cover.jpg

@@ -1,0 +1,123 @@
+@import 'susy';
+@import 'partials/bp/_main.scss';
+@import 'partials/bp/_normalize.scss';
+@import 'partials/featherlight/_featherlight.scss';
+@import 'partials/_variables.scss';
+@import 'partials/_mixins.scss';
+@import 'partials/_transitions.scss';
+@import 'partials/_01_layout.scss';
+@import 'partials/_02_typography.scss';
+
+// @import 'partials/_mixitup.scss';
+
+
+
+
+body {
+	background-color:$background-color;
+}
+
+
+
+header {
+	// background-color:rgba(0, 0, 0, 0.5);
+	height:8em;
+	@include susy-breakpoint($mama) {
+    height:8em;
+  }
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0.41+66,0+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.41) 66%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.41) 66%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.41) 66%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+	color:#fff;
+	a {
+		@include transition(0s, all);
+		color:#fff;
+		border-bottom:0px solid $secondary-color;
+		&.active {
+			border-bottom:3px solid $secondary-color;
+		}
+		&:hover {
+			color:#fff;
+			border-bottom:3px solid $brand-color
+		}
+	}
+	.inner {
+		// border-bottom:1px solid #ddd;
+	}
+
+}
+
+
+footer {
+	background-color: $almost-white;
+	padding:1em;
+	border-top:1px solid $gray-tone;
+	p {
+		margin:0;
+	}
+}
+
+section {
+	// border-bottom:1px solid #ddd;
+}
+
+
+.logowrap {
+	a {
+		border-bottom:0px;
+		&:hover {border-bottom:0px;}
+	}
+	.logoCircle{
+		fill:    none; 
+		@include transition(0.15s, fill);
+		border:2px solid #fff;
+	}
+	.logoType{
+		fill:  #FFF;
+	}
+	svg {
+		&:hover .logoCircle {
+			fill:none;
+		}
+		.st0 {
+			@include transition(.15s, all);
+			fill:rgba(17, 171, 82, 0);
+		}
+		&:hover .st0 {
+			fill:$brand-color;
+		}
+	}
+}
+
+#projList {
+	background-color:#1f1f1f;
+}
+
+
+.about{
+	.leftCol {
+		figure {
+			@include border-radius(10em);
+		}
+	}
+}
+
+
+.featherlight {
+	.featherlight-content {
+		background: none;
+		overflow:hidden;
+	}
+	.featherlight-close-icon {
+		display:none;
+	}
+	&:last-of-type {
+		background: rgba(255,255,255,0.75);
+	}
+}
+
+

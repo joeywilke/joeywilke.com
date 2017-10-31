@@ -1,0 +1,696 @@
+/* Changing Susy default global settings */
+$susy: (
+  /* Tells Susy to use 12 columns */
+  columns: 12,
+  /* Tells Susy that the container has a max-width of 1120px */
+  // container: 1120px,
+  /* Tells Susy to use border-box */
+  global-box-sizing: border-box,
+  gutters: .75,
+  math: fluid,
+  );
+
+
+
+/* Makes border-box properties */
+@include border-box-sizing;
+
+.wrap {
+  @include container;
+  margin-left: span(1);
+  margin-right: span(1);
+  position:relative;
+  @include susy-breakpoint($papa){
+    max-width:80em;
+  }
+  @include susy-breakpoint(80em) {
+    margin-left:auto;
+    margin-right:auto;
+    width:65em;
+  }
+}
+
+
+
+
+section {
+  margin-top:0px;
+  @include container;
+  // margin-bottom:gutter(20);
+  // padding-bottom:gutter(20);
+}
+
+
+
+/* =============================================================================
+images
+========================================================================== */
+
+figure {
+  margin:0;
+}
+
+img, object, embed {
+  width:100%;
+  @extend %border-none;
+}
+
+.imageLeft {
+  @include pull(span(1.5));
+}
+
+
+
+/* =============================================================================
+Header & Footer
+========================================================================== */
+
+
+header {
+  position:absolute;
+  top:0px;
+  width:100%;
+  .inner {
+    @include container;
+    // margin-left: span(1);
+    // margin-right: span(1);
+    padding: 1.25em 0 .5em;
+  }
+}
+
+
+.logowrap {
+  margin-top:-0.2em;
+  height:5em;
+  svg {
+    max-width:4em;
+    margin-bottom:gutter();
+    &:hover .st0 {
+      stroke: $brand-color;
+    }
+    .st0 {
+      stroke: #fff;
+      @include transition(.15s, all);
+    }
+  }
+  @include span(3 first);
+  @include susy-breakpoint($mama) {
+    @include span(2 first);
+    margin-top:-0.3em;
+  }
+  @include susy-breakpoint($papa) {
+    @include span(2 first);
+  }
+}
+
+
+.links {
+  @include span(8);
+  margin-top:1em;;
+  @include susy-breakpoint($mama){
+    margin-top:.8em;
+  }
+  li {
+    display:inline;
+    padding-right:gutter();
+    @include susy-breakpoint($mama) {
+      display:inline;
+      // padding:0;
+    }
+  }
+  // @include susy-breakpoint($mama) {
+  //   margin:0;
+  //   @include span(2);
+  // }
+  // @include susy-breakpoint($papa) {
+  //   @include span(2);
+  // }
+  ul{
+    margin:0;
+    padding-left:0;
+  }
+}
+
+
+.blurb {
+  @include span(12);
+  margin-top:gutter(25);
+  @include susy-breakpoint($mama) {
+    @include span(8 last);
+    margin-top:0;
+  }
+  @include susy-breakpoint($papa) {
+    @include span(6);
+  }
+}
+
+.workTitle {
+  margin-bottom:0px;
+}
+
+.workCredit {
+  margin:0;
+}
+
+footer {
+  .colo {
+    display:block;
+    float:left;
+  }
+  .social {
+    display:block;
+    position:absolute;
+    right:0px;
+    a {
+      font-size:1.5em;
+      line-height:0;
+      color:$gray-tone;
+      margin-left:.5em;
+    }
+    .socicon-instagram:hover {
+      color:#000000;
+    }
+    .socicon-linkedin:hover{
+      color:#3371b7;
+    }
+    .socicon-dribbble:hover{
+      color:#e84d88;
+    }
+  }
+}
+
+
+
+/* =============================================================================
+Page Layout
+========================================================================== */
+
+
+.heroImg {
+  height:22em;
+  @include susy-breakpoint($baby) {
+    height:26em;
+  }
+  @include susy-breakpoint($mama) {
+    height:32em;
+  }
+    @include susy-breakpoint($papa) {
+    height:36em;
+  }
+  width:100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.leftCol {
+  @include susy-breakpoint($mama) {
+    @include span(4 first);
+  }
+}
+
+.home .mainCol {
+  background-color:$background-color;
+  padding-left:gutter(10);
+  padding-right:gutter(10);
+  padding-top:.5em;
+  margin-bottom:-1em;
+  position:relative;
+  top:-3em;
+  @include span(12);
+  @include susy-breakpoint($mama) {
+    @include span(10);
+    @include pre(1);
+  }
+  @include susy-breakpoint($papa) {
+    @include span(8);
+    @include pre(2);
+  }
+  .aboutPic {
+    @include border-radius(10em);
+    overflow: hidden;
+    position:absolute;
+    left:50%;
+    @include picWidth(4em);
+    @include susy-breakpoint($baby){
+      // @include picWidth(5em);
+    }
+  }
+}
+
+.project .mainCol {
+  @include container;
+  position:relative;
+  margin-bottom:-2em;
+  top:-3em;
+  @include susy-breakpoint($baby) {
+    top:-4em;
+  }
+  @include susy-breakpoint($mama) {
+    top:-6em;
+  }
+    @include susy-breakpoint($papa) {
+      @include span(10);
+      @include pre(1);
+      @include post(1);
+    }
+  .projIntro {
+    padding-left: gutter(10);
+    padding-right: gutter(10);
+    padding-top:gutter(10);
+    background-color:$background-color;
+    @include span(12 last);
+    @include susy-breakpoint($mama) {
+      @include span(10);
+      @include pre(1);
+      @include post(1);
+    }
+  }
+  .projBody {
+    p, h1, h2, h3, h4, ul {
+      padding-left: gutter(10);
+      padding-right: gutter(10);
+      @include span(12 last);
+      @include susy-breakpoint($mama) {
+        @include span(10);
+        @include pre(1);
+        @include post(1);
+      }
+      // @include susy-breakpoint($papa) {
+      //   @include span(8);
+      //   @include pre(2);
+      //   @include post(2);
+      // }
+    }
+    figure h4, figure ul {
+      width:100%;
+      padding:0;
+      margin:0;
+      margin-bottom:.5em;
+    }
+  }
+  figure {
+    margin-top:gutter(3.5);
+    margin-bottom:gutter(3.5);
+    @include span(12);
+    @include susy-breakpoint($mama) {
+      margin-top:gutter(6);
+      margin-bottom:gutter(6);
+    }
+    figcaption {
+      padding-left: gutter(10);
+      padding-right: gutter(10);
+      margin-top:1em;
+      @include span(12);
+      @include susy-breakpoint($mama) {
+        margin-top:0;
+        padding-left:0;
+        padding-right:1em;
+        @include span(3 first);
+      }
+      @include susy-breakpoint($papa) {
+        @include span(4 first);
+      }
+    }
+    img, object, embed  {
+      @include susy-breakpoint($mama) {
+        @include span(9 last);
+      }
+      @include susy-breakpoint($papa) {
+        @include span(8 last);
+      }
+    }
+  }
+  figure.fullWidth {
+    figcaption{
+      @include susy-breakpoint($mama) {
+        @include span(10);
+        @include pre(1);
+        @include post(1);
+        padding-left:gutter(10);
+        padding-right:gutter(10);
+        border-top:none;
+      }
+    }
+    img, object, embed  {
+      @include susy-breakpoint($mama) {
+        @include span(12);
+      }
+    }
+  }
+  figure.twoUp {
+    @include susy-breakpoint($baby){
+      @include span(6);
+      margin-right:gutter() * .25;
+      margin-left:gutter() * .25;
+    }
+      figcaption{
+      @include susy-breakpoint($mama) {
+        @include span(10);
+        @include pre(1);
+        @include post(1);
+        padding-left:gutter(10);
+        padding-right:gutter(10);
+        border-top:none;
+      }
+    }
+    img, object, embed  {
+      @include susy-breakpoint($mama) {
+        @include span(12);
+      }
+    }
+  }
+}
+
+.rightCol {
+  margin-bottom:1em;
+  figure {
+    @include span(12 last);
+    margin-top:gutter(12);
+    margin-bottom:gutter(12);
+    @include susy-breakpoint($baby){
+      margin-top:gutter(20);
+      margin-bottom:gutter(20);
+    }
+    @include susy-breakpoint($mama){
+      margin-top:gutter(25);
+      margin-bottom:gutter(25);
+    }
+    @include susy-breakpoint($papa){
+      @include span(10 last);
+      margin-top:gutter(25);
+      margin-bottom:gutter(25);
+    }
+  }
+  p, h1, h2, h3, h4, ul { 
+    @include susy-breakpoint($mama) {
+      @include span(8 last);
+    }
+    @include susy-breakpoint($papa) {
+      @include span(6 last);
+      @include post(2);
+    }
+  }
+  figcaption {
+    padding:.5em 0;
+    @include susy-breakpoint($mama) {
+      // margin:0;
+      @include span(8 last);
+    }
+    @include susy-breakpoint($papa) {
+      // margin:0;
+      @include span(7.6 last);
+      @include post(2);
+    }
+  }
+}
+
+
+.photoCaptionLeft {
+  @include susy-breakpoint($mama) {
+    @include span(4 wide first);
+    // border-top:1px solid #ccc;
+    margin:0;
+    // padding:.5em 0;
+    padding-right:gutter();
+  }
+}
+
+
+
+/* =============================================================================
+About Page
+========================================================================== */
+
+
+.about {
+  @include container;
+  .mainCol {
+    @include span(12);
+    background-color:$background-color;
+    padding-left:gutter(10);
+    padding-right:gutter(10);
+    margin-bottom:-4em;
+    padding-top: 1.5em;
+    position:relative;
+    top:-4em;
+    @include susy-breakpoint($baby){
+      padding-top:2em;
+    }
+    @include susy-breakpoint($mama){
+      @include span(10 first);
+      @include pre(1);
+      padding-top:3em;
+    }
+    @include susy-breakpoint($papa){
+      @include span(7 first);
+      @include pre(1);
+    }
+    .aboutPic {
+      @include border-radius(10em);
+      overflow: hidden;
+      position:absolute;
+      left:50%;
+      @include picWidth(7em);
+      @include susy-breakpoint($baby){
+        @include picWidth(9em);
+      }
+      @include susy-breakpoint($mama){
+        @include picWidth(11em);
+      }
+    }
+  }
+  .aboutWrapper {
+    @include container;
+    padding-bottom:3em;
+    .mainCol {
+      padding-top:0;
+      position:static;
+      background-color:none;
+      margin-bottom:2em;
+      border-left:1px solid $gray-tone;
+      position:relative;
+      top:0;
+      @include susy-breakpoint($mama){
+        @include span(7 first);
+        @include pre(1);
+      }
+      &:before {
+        content:"";
+        display:block;
+        width:1em;
+        height:6em;
+        position:absolute;
+        top:0;
+        left:-.5em;
+        background-color:#fff;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+      }
+      &:after {
+        content:"";
+        display:block;
+        width:1em;
+        height:6em;
+        position:absolute;
+        bottom:0;
+        left:-.5em;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
+        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+      }
+      .job {
+        margin-bottom:2em;
+      }
+      .jobtitle, .edudegree {
+        display:block;
+        // float:left;
+        padding-right:1em;
+        @include susy-breakpoint($mama){
+          float:left;
+        }
+        &:before {
+          content:"";
+          display:block;
+          width:.8em;
+          height:.8em;
+          @include border-radius(50%);
+          background-color: $background-color;
+          border:1px solid $brand-color;
+          position:absolute;
+          left:-.4em;
+          margin-top:.2em;
+        }
+      }
+      .jobdate, .edudate {
+        display:block;
+        color:$gray-tone;
+        font-size:.8em;
+        padding-top:.2em;
+        @include susy-breakpoint($mama){
+          @include span(2);
+          display:block;
+          position:absolute;
+          left:0 - gutter(15) - span(2);
+          padding-top:0;
+        }
+      }
+      .jobdescription, .educlasses {
+        display:block;
+        clear:both;
+        font-size:.9em;
+      }
+    }
+  }
+  .sideCol {
+    padding-left:gutter(10);
+    padding-right:gutter(10);
+    margin-bottom:2em;
+    @include span(12);
+    @include susy-breakpoint($mama){
+      @include span(4 last);
+      padding:0;
+    }
+    @include susy-breakpoint($papa){
+      @include span(3 last);
+      @include post(1);
+    }
+  }
+}
+
+
+
+div[aria-expanded="false"] {
+  position:relative;
+  overflow:hidden;
+  &:after{
+    content:"";
+    display: block;
+    position:absolute;
+    bottom:-.1em;
+    height:2em;
+    width:100%;
+
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,0.83+31,1+100 */
+      background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.83) 31%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.83) 31%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.83) 31%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  }
+}
+
+a[data-readmore-toggle] {
+  font-size:.85em;
+  margin-top:.5em;
+}
+
+.more * {
+  display:inline-block;
+}
+
+.more + [data-readmore-toggle], .more[data-readmore]{
+  display: block; 
+  width: 100%;
+}
+.more[data-readmore]{
+  transition: height 75ms;
+  // overflow: hidden;
+}
+
+
+
+/* =============================================================================
+Project list
+========================================================================== */
+
+#projList {
+  padding-top:gutter(20);
+  padding-bottom:gutter(20);
+  li {
+    overflow:hidden;  
+    position:relative;
+    margin:gutter(20);
+    @include span(12);
+    @include susy-breakpoint($baby){
+      @include gallery(6 of 12);
+      margin:gutter(20);
+    }
+    @include susy-breakpoint($mama){
+      @include gallery(4 of 12);
+      margin:gutter(25);
+    }
+  }
+  figure {
+    margin:0;
+    height:4em;
+    overflow:hidden;
+    @include susy-breakpoint($baby){
+      height:auto;
+      overflow:auto;
+    }
+  }
+  figcaption {
+    padding:gutter();
+    z-index:10;
+    width:100%;    
+  }
+  .active figure {
+    border:2px solid $secondary-color;
+  }
+}
+
+
+#projFilter, #workRoles {
+  margin-bottom:.5em;
+}
+
+
+
+/* =============================================================================
+Colophon
+========================================================================== */
+
+
+
+.colophon .mainCol, .error .mainCol {
+  @include container;
+  position:relative;
+  margin-bottom:-2em;
+  top:-3em;
+  padding-left: gutter(10);
+  padding-right: gutter(10);
+  padding-top:gutter(10);
+  background-color:$background-color;
+  @include span(12 last);
+  @include susy-breakpoint($baby) {
+    top:-4em;
+  }
+  @include susy-breakpoint($mama) {
+    top:-6em;
+    @include span(10);
+    @include pre(1);
+    @include post(1);
+  }
+  @include susy-breakpoint($papa) {
+    @include span(8);
+    @include pre(2);
+    @include post(2);
+  }
+  .tool {
+    @include container;
+    margin:2em 0 2em;
+    img {
+      @include span(2 first);
+    }
+    figcaption{
+      font-size:.9em;
+      @include span(10 last);
+    }
+  }
+}

@@ -1,0 +1,37 @@
+Title: Prime Process Tools
+
+----
+
+Tags: Development
+
+----
+
+Text: 
+
+These are several process improvements created in my time with the Amazon Prime VXDesign team. 
+
+(picture: gatewayBB.png
+caption: <h4>Gateway Billboard Tool</h4><br />For the Amazon home page, the graphic requirements of the billboard placement can be exacting, fitting concise text in a limited amount of space can be the cause of a great amount of back and fourth between merchandizers and designers. I created the billboard tool allow anyone to try typography out on the fly, providing feedback in terms of spacing and total character count which removes the guess work for all parties involved. Give it a try <a href="http://joeywilke.com/alt/gatewayBBTool/">here</a> For example purposes only.)
+
+(picture: plugin.png
+caption:<h4>Photoshop SmartExport 0.9b</h4><br />To speed up automation within our team, I wrote a photoshop script that:<br /><br />
+<ul><li> Grabs the file name</li>
+<li>Opens each smart object selected</li>
+<li>Saves it out in the desired web safe format in a directory you specify</li>
+<li>Names the file based on the layer name appended to whatever the user inputs in the prepend field, the default is the file name</li></ul>)
+
+<figure><iframe src="//fast.wistia.net/embed/iframe/ybi9ja45zn?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script></figure>
+
+(image: LocationBlock.jpg caption: <h4>Prime VXD Wiki</h4><br />Wiki template to consolidate style code and make it easier for non-coders to create clean and informative layouts.  )
+
+----
+
+Collaborators: 
+
+----
+
+Summary: Working smart, having fun
+
+----
+
+Cover: process-cover.jpg

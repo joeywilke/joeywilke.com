@@ -1,0 +1,151 @@
+Title: About
+
+----
+
+Blurb: 
+
+Whether it's digital or print, static or interactive, visual or code, I love the challenge of determining the most efficient and engaging solution no matter the medium.
+
+For more information please contact me at hello@joeywilke.com
+
+----
+
+Headline: My name is Eugene J Wilke III, but please just call me Joey. Using my experience in design and development, I want to work with a team creating interactive experiences that impact people in unique, exciting, and meaningful ways.
+
+----
+
+History: 
+
+- 
+  company: Savers
+  jobtitle: Designer
+  datefrom: 2016-05-01
+  dateto:
+  current: on
+  description: >
+    I work with a talented team to create
+    engaging communications and experiences
+    for the global thrift brand. In my time
+    with the company I have designed and
+    help launch several new website
+    experiences, updated existing website
+    graphics based on the preexisting brand
+    guidelines, coded HTML5 animated
+    advertisements, and created a variety of
+    different print pieces that are
+    distributed in the US, Canada, and
+    Australia.
+- 
+  company: Freelance
+  jobtitle: Multidisciplinary Designer
+  datefrom: 2012-09-01
+  dateto:
+  current: true
+  description: >
+    Working with various clients that
+    include Wizards of the Coast and Circle
+    of Confusion, as a freelance designer I
+    excel in solving any problem, no matter
+    the medium. Whether it be wordpress
+    design, illustration, information
+    architecture and ux, front end
+    development or cms modification with
+    php, I work hard to meet your creative
+    and business needs.
+- 
+  company: Amazon Prime
+  jobtitle: VX Designer
+  datefrom: 2015-01-01
+  dateto: 2015-10-01
+  description: |
+    As a part of the Amazon Prime Visual Design team, I worked on visual collateral for Amazon Prime including advertising, marketing, product launches, promotions, branding, and so much more. In doing so I helped to further the strategic business goals of Amazon Prime while striving to uphold the consistency of the visual brand and create the highest quality deliverables possible. My responsibilities included:
+    - Helping support the design needs of the Prime brand, and provide direction and design for Prime Marketing teams in 8+ locales worldwide.
+    - Using marketing and business requirements and requests create compelling design solutions. Presenting work to design, marketing, and business stakeholders for review and feedback.
+    - Helping document, develop, and strengthen the Amazon Prime brand guidelines, as well as communicating with the larger design community to ensure consistent use.
+    - Developing the Prime internal wiki to communicate process as well as share design resources with other teams.
+    - Creating and improving several internal processes for the Prime VX design team, including creating a Photoshop script to save valuable time, and developing a repository of templates for internal and external use.
+- 
+  company: Amazon Creative Services
+  jobtitle: Graphic Designer
+  datefrom: 2014-04-01
+  dateto: 2015-01-01
+  description: |
+    Amazon Creative Services (ACS) is a global, internal creative agency whose expertice ranges from brand development to high-volume content production, with studio capabilities in design, UX, video and photography. Working with business and marketing teammates from nearly every vertical within Amazon, I produced deliverables in a fast-paced environment that not only met business needs and drove engagement, but also upheld the visual standards of the Amazon brand while delighting customers. My responsibilities included:
+    - Create graphics and experiences to enhance how people browse and shop on Amazon. This includes site graphics, advertising graphics for email and social streams, page redesigns, and style guide creation for original creative content.
+    - Communicate regularly with producers, design leads, and marketing and business stakeholders to remove ambiguity, communicate succinct design decisions, and set and meet expectations/deadlines.
+    - Create the best possible design deliverable, in the least amount of time, that meets design guidelines for internal brands, the Amazon brand, as well as the ACS quality bar.
+- 
+  company: Smashing Ideas
+  jobtitle: Junior Designer
+  datefrom: 2011-12-01
+  dateto: 2012-09-01
+  description: |
+    Smashing ideas is a creative agency that has created engaging digital content since 1996. In my time at Smashing Ideas I worked mostly with Sony International properties, creating content for as well as styling and coding entertainment programming websites. This included:
+    - Creating flash, static, and motion advertisments for various launches.
+    - Working on drupal-powered websites, as well as developing a custom drupal theme for Sony Movie Channel UK.
+
+----
+
+Skills: 
+
+- 
+  skill: Photoshop
+  proficiency: 5
+- 
+  skill: Illustrator
+  proficiency: 5
+- 
+  skill: InDesign
+  proficiency: 5
+- 
+  skill: After Effects
+  proficiency: 2
+- 
+  skill: 'HTML5 & CSS3'
+  proficiency: 5
+- 
+  skill: 'SASS & LESS'
+  proficiency: 5
+- 
+  skill: 'Javascript & Jquery'
+  proficiency: 4
+- 
+  skill: PHP
+  proficiency: 3
+- 
+  skill: "CMS' (Wordpress, Drupal, Kirby)"
+  proficiency: 4
+- 
+  skill: 'Git & SVN'
+  proficiency: 3
+- 
+  skill: MySQL
+  proficiency: 2
+- 
+  skill: Jira / Sharepoint
+  proficiency: 1
+
+----
+
+Education: 
+
+- 
+  institution: Cornish College of the Arts
+  degree: BFA Degree
+  yearfrom: 2007-01-01
+  yearto: 2011-01-01
+  classes: 'Printmaking, Comics, Photography 1&2, Drawing 1-3, Bookmaking, Type in Motion, Web design and interactive publishing design.'
+- 
+  institution: Skagit Valley College
+  degree: AA Degree
+  yearfrom: 2005-01-01
+  yearto: 2007-01-01
+  classes: 'Photography 1 & 2, digital darkroom, drawing 1&2, President of Photography club.'
+
+----
+
+Cover: IMG_1922-small.jpg
+
+----
+
+Bio: My full name is Eugene J Wilke III, but please call me Joey. Nothing excites me more than a smart grid and a sharp sans serif. My first creative itchings as a kid were for film photography, and it still informs my drive for composition, intricacy, and wonder in my work. When I’m in nature I’m happiest, so when I’m not designing I garden, camp, and hike with my dog, George.

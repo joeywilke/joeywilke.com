@@ -1,0 +1,29 @@
+Title: Joey Wilke
+
+----
+
+Author: Joey Wilke
+
+----
+
+Description: Joey is a multidisciplinary graphic designer based out of Seattle.
+
+----
+
+Keywords: Design,Portfolio,Graphic Design,Illustration,Photography,Front-End Development
+
+----
+
+Blurb: Joey is a multidisciplinary graphic designer based out of Seattle.
+
+----
+
+Colophon: © 2016 Joey Wilke. (link: about/colophon text: ☆)
+
+----
+
+Joeypic: amazonXmas.jpg
+
+----
+
+Social: <a href="http://www.linkedin.com/in/joeywilke" class="socicon-linkedin"></a><a href="https://dribbble.com/joeykangaroo" class="socicon-dribbble"></a><a href="https://www.instagram.com/joeykangaroo/" class="socicon-instagram"></a>

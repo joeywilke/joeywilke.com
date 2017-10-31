@@ -1,0 +1,9 @@
+Title: Home
+
+----
+
+Text: Joey is a multidisciplinary visual designer with 5 years of experience in web design, front-end design, print, and more.
+
+----
+
+Cover: baker-homeCover.jpg
