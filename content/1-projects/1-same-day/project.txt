@@ -8,7 +8,7 @@ Tags: Production,Art Direction
 
 Text: 
 
-For the launch of FREE Same-Day Shipping in the US, I produced graphic placements, pages, and print materials to advertise the launch. Working closely with Sarah I created examples of how Eric's illustrations would be used throughout major contact points to fit with the voice of the Amazon Prime brand, and then provided assets and direction to the production team to flesh out advertising materials for worldwide audiences. 
+When Amazon prepared to launch Free Same-Day Shipping in the US I produced graphic placements, pages, and print materials to advertise the upcoming launch. To ensure adherence to the Prime brand, I worked under Sarah's guidance to transform Eric's illustrations into a set of visual conventions that could be applied across a range of varied deliverables that would be seen by millions of Amazon customers. After creating a cohesive deliverable package, I provided direction to the production team who would localize graphics for targeted marketing in the major US metro areas for launch. 
 
 (picture: Isometric-Contact-Sheet.jpg
 class: fullWidth)
@@ -33,7 +33,7 @@ Collaborators:
 
 - 
   name: Sarah Roulston
-  role: Art Director
+  role: Senior Art Director
   url: http://sarahroulston.com
 - 
   name: Eric Liu

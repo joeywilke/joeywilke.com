@@ -1,4 +1,4 @@
-Title: Senior Thesis
+Title: Cumulus
 
 ----
 
@@ -8,21 +8,19 @@ Tags: Illustration
 
 Text: 
 
-During my final year at Cornish College of the Arts, I was allowed to explore a design problem of my choosing and generate material to be shown for the BFA Show. With my interest in user interface design I explored the concept of flow as well as new ways to visualize time spent online. 
+For an initial exploration into making a full usable app, I created Cumulus. A concept tool that, through observing your browsing habits, allows you to see exactly how you interact with your browser and get lost online, compares your browsing to global trends within the app's dataset, and provides the ability capture and export browsing sessions for later use like academic or professional research. 
 
-###Thesis Statement
+Through visualizing states of psychological flow while getting lost online, users hopefully get to see that falling into an internet hole isn't just counter-productive, but a valuable form of exploration and play.
 
->The internet is a virtual environment, not confined by distance or time. When browsing, it’s easy to start with one purpose in mind, and suddenly find hours have flown by and you are looking at websites that have nothing to do with where you started out. You become lost, like Alice, down a virtual rabbit hole of a cultural and entertainment wasteland. <br /><br />The majority of web users, while having experienced this, know very little about how and why this happens, and have no way to garner useful information from such non-linear web browsing. <br /><br />Through interviews, research, and exploration, I will create an experience that not only entertains, but takes a critical look at this ‘rabbit hole’. I will assert that getting lost online, while sometimes a counter-productive time-suck, can be a valuable form of exploration and play. 
+(picture: 00_Welcome.png caption:Welcome Page)
 
-(image: 00_Welcome.png caption:Welcome Page)
+(picture: 000_overview.png caption:Overview)
 
-(image: 000_overview.png caption:Overview)
+(picture: 01_history-01.png caption:History View)
 
-(image: 01_history-01.png caption:History View)
+(picture: 02_Trends-01.png caption:Trends View)
 
-(image: 02_Trends-01.png caption:Trends View)
-
-(image: 03_Sessions-01.png caption: Sessions View)
+(picture: 03_Sessions-01.png caption: Sessions View)
 
 ----
 
@@ -30,7 +28,7 @@ Collaborators:
 
 ----
 
-Summary: Project for Cornish BFA Show
+Summary: Browsing habits visualized
 
 ----
 

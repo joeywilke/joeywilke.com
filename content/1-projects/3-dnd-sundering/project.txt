@@ -14,23 +14,23 @@ My roles included refining user flow for the site, as well as guiding the ui/ux 
 
 The app is currently live and used by hundreds of thousands of players worldwide to report the outcomes of their play experiences, connect with other players, and participate in activities designed to enhance their Sundering experience. 
 
-(image: sundering.jpg caption:Mobile Wireframes)
+(picture: sundering.jpg caption:Mobile Wireframes)
 
-(image: sundering2.jpg caption:Mobile round 1)
+(picture: sundering2.jpg caption:Mobile round 1)
 
-(image: sundering3.jpg caption:Mobile round 2)
+(picture: sundering3.jpg caption:Mobile round 2)
 
-(image: sundering4.jpg caption:Desktop experiences)
+(picture: sundering4.jpg caption:Desktop experiences)
 
-(image: sundering5.jpg caption:More desktop experiences)
+(picture: sundering5.jpg caption:More desktop experiences)
 
-(image: sundering6.jpg caption:Live mobile experience)
+(picture: sundering6.jpg caption:Live mobile experience)
 
-(image: sundering7.jpg caption:Live desktop onboarding experience)
+(picture: sundering7.jpg caption:Live desktop onboarding experience)
 
-(image: sundering8.jpg caption:Live desktop home screen)
+(picture: sundering8.jpg caption:Live desktop home screen)
 
-(image: sundering9.jpg caption:Live desktop novel experience)
+(picture: sundering9.jpg caption:Live desktop novel experience)
 
 ----
 

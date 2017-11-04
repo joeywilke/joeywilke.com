@@ -8,19 +8,19 @@ Tags: Art Direction,Production,Illustration
 
 Text: 
 
-One of the fastest growing sections within the Electronics vertical, the (link: http://amazon.com/wearabletech text: Amazon Wearable Technology) storefront was in need of a redesign, and I was provided the opportunity to lead the visual approach.
+One of the fastest growing sections within the Electronics vertical, the (link: http://amazon.com/wearabletech text: Amazon Wearable Technology) storefront was in need of an update. A few of the widgets in the back end were outdated, did not allow for flexible updating, and the graphics being edited in a piecemeal fashion by multiple designers on the team often times led to an inconsistent visual appearance. I created a flexible visual system that could not only match the Amazon brand, but the varied brands within the wearable technology market. 
 
 (picture: Before.png 
 number: 1 
-caption: The previous design of the Wearable Tech store at Amazon, somewhat limiting with specific green pop color. Wasn't flexible enough to match many of the brands in the store.)
+caption: The previous design of the Wearable Tech store at Amazon.)
 
 (picture: WT-Visual-Research.jpg 
 number: 2
-caption: Grabbing queues from the current visual landscape of wearable technology products, as well as the Fashion and Sports stores at Amazon which both have distinct visual approaches.)
+caption: Grabbing queues from the current visual landscape of wearable technology products, as well as the established Fashion and Sports brands at Amazon.)
 
 (picture: 2015_wearableTech_styleguide.jpg
 number: 3
-caption: Here is a bit of the style guide I created that helped to drive the overall direction of all deliverables for the launch.)
+caption: A snippet of the style guide I created that helped to drive the overall direction of all deliverables for the launch.)
 
 (picture: home-mock.jpg
 number:4 

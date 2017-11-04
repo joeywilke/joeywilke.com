@@ -20,8 +20,8 @@ History:
   company: Savers
   jobtitle: Designer
   datefrom: 2016-05-01
-  dateto:
-  current: on
+  dateto: ""
+  current: true
   description: >
     I work with a talented team to create
     engaging communications and experiences
@@ -35,23 +35,6 @@ History:
     different print pieces that are
     distributed in the US, Canada, and
     Australia.
-- 
-  company: Freelance
-  jobtitle: Multidisciplinary Designer
-  datefrom: 2012-09-01
-  dateto:
-  current: true
-  description: >
-    Working with various clients that
-    include Wizards of the Coast and Circle
-    of Confusion, as a freelance designer I
-    excel in solving any problem, no matter
-    the medium. Whether it be wordpress
-    design, illustration, information
-    architecture and ux, front end
-    development or cms modification with
-    php, I work hard to meet your creative
-    and business needs.
 - 
   company: Amazon Prime
   jobtitle: VX Designer
@@ -74,6 +57,23 @@ History:
     - Create graphics and experiences to enhance how people browse and shop on Amazon. This includes site graphics, advertising graphics for email and social streams, page redesigns, and style guide creation for original creative content.
     - Communicate regularly with producers, design leads, and marketing and business stakeholders to remove ambiguity, communicate succinct design decisions, and set and meet expectations/deadlines.
     - Create the best possible design deliverable, in the least amount of time, that meets design guidelines for internal brands, the Amazon brand, as well as the ACS quality bar.
+- 
+  company: Freelance
+  jobtitle: Multidisciplinary Designer
+  datefrom: 2012-09-01
+  dateto: ""
+  current: true
+  description: >
+    Working with various clients that
+    include Wizards of the Coast and Circle
+    of Confusion, as a freelance designer I
+    excel in solving any problem, no matter
+    the medium. Whether it be wordpress
+    design, illustration, information
+    architecture and ux, front end
+    development or cms modification with
+    php, I work hard to meet your creative
+    and business needs.
 - 
   company: Smashing Ideas
   jobtitle: Junior Designer

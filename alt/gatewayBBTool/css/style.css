@@ -1,0 +1,47 @@
+body { 
+	background: #fff; 
+	color: #444; 
+	font-family: Arial, 
+	sans-serif; 
+	font-size: 16px; 
+	line-height: 25px; 
+}
+
+#page {
+	width:800px;
+	margin:0px auto;
+	padding:50px;
+}
+#imageBlock {
+	width:440px;
+	height:200px;
+	border:12px solid #ccc;
+	background:#fff url("../img/GW-Billboard-1320x600.jpg") no-repeat left top;
+	background-size: 440px;
+	margin:20px auto;
+	position:relative;
+}
+
+.line {
+	font-family: 'HelveticaNeueLTStd-Lt' !important; 
+	position:absolute;
+	left:185px;
+	font-size:25px;
+	text-align: center;
+	width:222px;
+	vertical-align: baseline;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height:25.33px;
+}
+
+#Line1 {
+	top:74px;
+}
+
+#Line2 {
+	top:101px;
+}
+#Line3 {
+	top:127px;
+}
