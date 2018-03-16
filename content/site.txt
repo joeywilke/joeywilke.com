@@ -26,4 +26,8 @@ Joeypic: amazonXmas.jpg
 
 ----
 
-Social: <a href="http://www.linkedin.com/in/joeywilke" class="socicon-linkedin"></a><a href="https://dribbble.com/joeykangaroo" class="socicon-dribbble"></a><a href="https://www.instagram.com/joeykangaroo/" class="socicon-instagram"></a>
+Social: <a href="http://www.linkedin.com/in/joeywilke" class="socicon-linkedin"></a><a href="https://github.com/joeywilke/joeywilke.com" class="socicon-github"></a>
+
+----
+
+SocialBackup: <a href="https://dribbble.com/joeykangaroo" class="socicon-dribbble"></a><a href="https://www.instagram.com/joeykangaroo/" class="socicon-instagram"></a>
