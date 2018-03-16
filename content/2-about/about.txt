@@ -101,6 +101,9 @@ Skills:
   skill: After Effects
   proficiency: 2
 - 
+  skill: Sketch
+  proficiency: 5
+- 
   skill: 'HTML5 & CSS3'
   proficiency: 5
 - 

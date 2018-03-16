@@ -18,7 +18,7 @@ Blurb: Joey is a multidisciplinary graphic designer based out of Seattle.
 
 ----
 
-Colophon: © 2016 Joey Wilke. (link: about/colophon text: ☆)
+Colophon: © (date: year) Joey Wilke. (link: about/colophon text: ☆)
 
 ----
 
