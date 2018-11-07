@@ -16,14 +16,22 @@ Headline: My name is Eugene J Wilke III, but please just call me Joey. Using my 
 
 History: 
 
+
+-
+  company: Amazon FreeTime Unlimited
+  jobtitle: UX Designer
+  datefrom: 2018-05-04
+  dateto: ""
+  current: true
+  description: |
+  	I currently am reimagining the digital subscription purchase experience for FreeTime Unlimited, thinking strategically about how to solve customer shopping challenges. Collaborating across the company in an agile environment, I work with product managers, user research, and other designers to realize changes in how we sell subscriptions to our customers. 
 - 
   company: Savers
   jobtitle: Designer
   datefrom: 2016-05-01
-  dateto: ""
-  current: true
+  dateto: 2018-05-04
   description: >
-    I work with a talented team to create
+    I worked with a talented team to create
     engaging communications and experiences
     for the global thrift brand. In my time
     with the company I have designed and
@@ -89,6 +97,12 @@ History:
 Skills: 
 
 - 
+  skill: Sketch
+  proficiency: 5
+-
+  skill: Framer
+  proficiency: 4
+- 
   skill: Photoshop
   proficiency: 5
 - 
@@ -100,9 +114,6 @@ Skills:
 - 
   skill: After Effects
   proficiency: 2
-- 
-  skill: Sketch
-  proficiency: 5
 - 
   skill: 'HTML5 & CSS3'
   proficiency: 5
@@ -120,13 +131,13 @@ Skills:
   proficiency: 4
 - 
   skill: 'Git & SVN'
-  proficiency: 3
+  proficiency: 4
 - 
   skill: MySQL
   proficiency: 2
 - 
   skill: Jira / Sharepoint
-  proficiency: 1
+  proficiency: 4
 
 ----
 
@@ -151,4 +162,4 @@ Cover: IMG_1922-small.jpg
 
 ----
 
-Bio: My full name is Eugene J Wilke III, but please call me Joey. Nothing excites me more than a smart grid and a sharp sans serif. My first creative itchings as a kid were for film photography, and it still informs my drive for composition, intricacy, and wonder in my work. When I’m in nature I’m happiest, so when I’m not designing I garden, camp, and hike with my dog, George.
+Bio: My full name is Eugene J Wilke III, but please call me Joey. Nothing excites me more than a smart grid and a sharp sans serif. My first creative itchings growing up were for film photography, and it still informs my drive for composition, intricacy, and wonder in my work. When I’m in nature I’m happiest, so when I’m not designing I garden, camp, and hike with my dog, George.
